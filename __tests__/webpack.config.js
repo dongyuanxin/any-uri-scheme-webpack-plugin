@@ -10,8 +10,8 @@ module.exports = {
   plugins: [
     new AnyUriSchemePlugin({
       schemes: [
-        'my-custom-scheme:',
-        'twitter:',
+        // 'my-custom-scheme:',
+        // 'twitter:',
       ],
       log: {
         open: true,
