@@ -9,7 +9,10 @@ module.exports = {
   },
   plugins: [
     new AnyUriSchemePlugin({
-      schemes: ['my-custom-scheme:'],
+      schemes: [
+        'my-custom-scheme:',
+        'twitter:',
+      ],
       log: {
         open: true,
       },
@@ -18,6 +21,13 @@ module.exports = {
           switch (resolveData.request) {
             case 'my-custom-scheme:classnames': 
               resolveData.request = 'classnames';
+              break;
+          }
+        }
+        if (scheme === 'twitter:') {
+          switch (resolveData.request) {
+            case 'twitter:stdlib/lodash':
+              resolveData.request = 'lodash';
               break;
           }
         }
