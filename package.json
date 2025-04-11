@@ -1,0 +1,22 @@
+{
+  "name": "any-uri-scheme-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Let webpack (version greater than or equal to v5) support custom uri protocol, like custom://, twittwer://, weixin:// and so on",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd __tests__ && npx webpack"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "scheme",
+    "uri"
+  ],
+  "author": "dongyuanxin",
+  "license": "MIT",
+  "devDependencies": {
+    "classnames": "^2.5.1",
+    "webpack": "^5.99.5",
+    "webpack-cli": "^6.0.1"
+  }
+}
