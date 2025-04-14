@@ -1,6 +1,6 @@
 {
   "name": "any-uri-scheme-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Let webpack (version greater than or equal to v5) support custom uri protocol, like custom://, twittwer://, weixin:// and so on",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dongyuanxin/any-uri-scheme-webpack-plugin.git"
+    "url": "git+https://github.com/dongyuanxin/any-uri-scheme-webpack-plugin.git"
   },
   "keywords": [
     "webpack",
