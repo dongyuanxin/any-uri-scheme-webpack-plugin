@@ -6,6 +6,10 @@
   "scripts": {
     "test": "cd __tests__ && npx webpack && node ./dist/bundle.js && cd -"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dongyuanxin/any-uri-scheme-webpack-plugin.git"
+  },
   "keywords": [
     "webpack",
     "plugin",

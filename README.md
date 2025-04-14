@@ -82,5 +82,5 @@ module.exports = {
 
 ## Links
 
-- [Github]()
-- [Test cases]()
+- [Github](https://github.com/dongyuanxin/any-uri-scheme-webpack-plugin)
+- [Test cases](https://github.com/dongyuanxin/any-uri-scheme-webpack-plugin/tree/main/__tests__)
