@@ -41,7 +41,7 @@ Now please import this any uri scheme webpack plugin for "UnhandledSchemeError":
 ```javascript
 // webpack.config.js
 const path = require('path');
-const AnyUriSchemePlugin = require('../index.js');
+const AnyUriSchemePlugin = require('any-uri-scheme-webpack-plugin');
 
 module.exports = {
   entry: './page.js',
